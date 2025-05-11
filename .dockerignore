@@ -1,0 +1,18 @@
+# Ignore node_modules and build files for the frontend
+frontend/node_modules
+frontend/build
+
+# Ignore Python cache and virtual environment files for the backend
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/env/
+backend/venv/
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose.yml
+
+# Ignore Git-related files
+.git
+.gitignore
